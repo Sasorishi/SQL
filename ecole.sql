@@ -4,7 +4,7 @@ create database ecole; /*Créer la database*/
 use ecole; /*Charge la database*/
 create table classe
 	(	
-		codeC char(6) not null,
+		codeA char(6) not null,
 		nomlongC varchar(20) not null,
 		effectif int(2),
 		primary key (codeC)	
